@@ -21,4 +21,7 @@ class OlderController extends Controller
     //echo "<pre>".json_encode($carts,JSON_PRETTY_PRINT)."</pre>";
    	return view('user.older',['carts'=>$carts]);
    }
+   function pay(){
+   	
+   }
 }
